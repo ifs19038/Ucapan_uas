@@ -1,9 +1,9 @@
 var b = document.querySelector("button.button_no");
-b.addEventListener("click",change);
+b.addEventListener("mouseover",change);
 function change()
 {
-    var i = Math.floor(Math.random()*500)+1;
-    var j = Math.floor(Math.random()*500)+1;
-    b.style.left = i+"px";
+    var i = Math.floor(Math.random()*100)+1;
+    var j = Math.floor(Math.random()*100)+1;
+    b.style.right = i+"px";
     b.style.top = j+"px";
 }
