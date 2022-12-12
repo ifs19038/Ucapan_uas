@@ -1,5 +1,5 @@
 var b = document.querySelector("button.button_no");
-b.addEventListener("mouseover",change);
+b.addEventListener("click",change);
 function change()
 {
     var i = Math.floor(Math.random()*100)+1;
